@@ -37,7 +37,7 @@ body {
   display: none;
   margin-top: 1em;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   padding: 0.2em;
   border-top: 1px solid;
@@ -51,6 +51,7 @@ input {
   border-radius: 50%;
   text-align: center;
   padding: 1em;
+  font-size: 1.2rem;
 }
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button{
