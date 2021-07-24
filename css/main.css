@@ -52,6 +52,7 @@ input {
   text-align: center;
   padding: 1em;
   font-size: 1.3rem;
+  transition: all 250ms;
 }
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button{
