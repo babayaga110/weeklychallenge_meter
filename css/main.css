@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+.container {
+  display: flex;
+  align-items: center;  
+}
+
+
+body {
+    background-image: url(../img/Background.png);
+    background-repeat: repeat;
+    justify-content: center;
+    background-color: hotpink;
+    font-size: 24px;
+    height: 100vh;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.container {
+    flex-direction: column;
+    padding: 1em 2em;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.9);
+    max-width: 400px;
+    min-height: 400px;
+    justify-content: center;
+  }
+
+
+.link{
+  display: none;
+  margin-top: 1em;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.2em;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+input {
+  margin: 2em 0;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  text-align: center;
+  padding: 1em;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+input[type = number]{
+  -moz-appearance: textfield;
+}
+input:hover,
+input:focus{
+    outline: none;
+}
+
+meter {
+    height: 2em;
+    width: 5em;
+}
+
+meter::-webkit-meter-bar{
+  border-radius: 5px;
+} 
+
+meter::-webkit-meter-optimum-value{
+  background: linear-gradient(135deg,#006400,#006400 10%,
+                                       #90ee90 10%,#90ee90 20%,
+                                       #006400 20%, #006400 30%,
+                                       #90ee90 30%, #90ee90 40%,
+                                       #006400 40%, #006400 50%,
+                                       #90ee90 50%, #90ee90 60%,
+                                       #006400 60%, #006400 70%,
+                                       #90ee90 70%, #90ee90 80%,
+                                       #006400 80%, #006400 90%,
+                                       #90ee90 90%, #90ee90 100%);
+
+} 
+button{
+  margin-top: 1em;
+  border: none;
+  padding: 0.3em 2em;
+  transform: scale(1);
+  transition: all 250ms;
+}
+button:hover,
+button:focus{
+  outline: none;
+  transform: scale(0.9);
+}
+#disconnect{
+  display: none;
+}
