@@ -93,6 +93,7 @@ button{
   padding: 0.3em 2em;
   transform: scale(1);
   transition: all 250ms;
+  font-size: 1.5rem;
 }
 button:hover,
 button:focus{
